@@ -42,16 +42,15 @@ ul.nav li {
 }
 /*jumbotron*/
 .jumbotron {
- 
   padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: linear-gradient(rgb(255, 255, 255), rgb(56, 150, 44));
+  background: linear-gradient(rgb(255, 255, 255), rgba(56, 150, 44, 0.644));
 }
 .display-1 {
   display: flex;
-background-color: rgba(0, 0, 0, 0.301);
+  background-color: rgba(0, 0, 0, 0.301);
   flex-direction: column;
   margin: 30px;
   color: white;
@@ -64,7 +63,7 @@ background-color: rgba(0, 0, 0, 0.301);
 
 /*picture*/
 .display-1-2 {
-  border-radius: 50px;
+  border-radius: 80px;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -83,7 +82,111 @@ background-color: rgba(0, 0, 0, 0.301);
 .display-1-2 img {
   width: 100%;
 }
+/*Blog*/
+.Blog {
+  padding: 20px;
 
+  background: linear-gradient(
+    rgba(56, 150, 44, 0.644),
+    rgba(3, 68, 152, 0.699)
+  );
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+.Blog h2 {
+  font-size: 40px;
+}
+
+.Blog p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.flip-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.img-fluid {
+  object-fit: cover;
+}
+.flip-card img {
+  width: 300px;
+  height: 400px;
+  border-radius: 50px;
+}
+.flip-card {
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  padding-right: 20px;
+  padding-top: 10px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.479);
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+.flip-card-back ul {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+/*adition*/
+.adition {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(
+    rgba(3, 68, 152, 0.699),
+    rgba(56, 150, 44, 0.644)
+  );
+}
+.display-3 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.301);
+  flex-direction: column;
+  margin: 30px;
+  color: white;
+  border-radius: 50px;
+}
+.Titlesa {
+  text-align: center;
+  padding: 20px;
+}
+.display-3-2 {
+  padding-top: 30px;
+}
+.logo2 {
+  background-color: rgba(255, 255, 255, 0.548);
+  border: 5px solid black;
+  border-radius: 50px;
+}
+/*animacion*/
 @keyframes cambio {
   0% {
     margin-left: 0;
@@ -126,6 +229,32 @@ background-color: rgba(0, 0, 0, 0.301);
   }
   .jumbotron {
     flex-direction: column;
+  }
+  .flip-container {
+    flex-direction: column;
+  }
+  .flip-card-inner {
+    height: 500px;
+  }
+  .flip-card {
+    margin: 20px;
+    height: 500px;
+  }
+  .flip-card img {
+    height: 500px;
+  }
+  .adition {
+    flex-direction: column;
+  }
+  .display-1 {
+    width: 98%;
+  }
+  .display-3 {
+    width: 98%;
+  }
+ 
+  .logo2 {
+    width: 98%;
   }
 }
 /*footer*/
