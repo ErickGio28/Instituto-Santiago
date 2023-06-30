@@ -12,16 +12,16 @@
     <header id="main-header">
         <img src="./Photos/sant.png" alt="Instituto-santiago" class="logo">
         <ul class="nav">
-            <li class="nav-item">INICIO</li>
-            <li class="nav-item">NOSOTROS</li>
-            <li class="nav-item">SECUNDARIA</li>
-            <li class="nav-item">PREPARATORIA</li>
-            <li class="nav-item">CONTACTANOS</li>
+            <li class="nav-item"><a href="./index.html" class="nav-link">INICIO</a></li>
+            <li class="nav-item"><a href="#jumbotron" class="nav-link">NOSOTROS</a></li>
+            <li class="nav-item"><a href="#blog" class="nav-link">NIVELES DE EDUCACION</a></li>
+            <li class="nav-item"><a href="#aditions" class="nav-link">ALIANZAS</a></li>
+            <li class="nav-item"><a href="#footers1" class="nav-link">CONTACTANOS</a></li>
             <li><img src="./Photos/menu.png" alt="menu" class="Menu"></li>
         </ul>
     </header>
     <main>
-        <div class="jumbotron">
+        <div class="jumbotron" id="jumbotron">
             <div class="display-1">
 
                 <h1 class="Titlesa">Instituto Santiago</h1>
@@ -40,7 +40,7 @@
                 </ul>
             </div>
         </div>
-        <div class="Blog">
+        <div class="Blog" id="blog">
             <h2 class="display-2">Niveles de educacion</h2>
             <p>La escuela Instituto Santiago es reconocida por su alta calidad educativa en los niveles de primaria,
                 secundaria y
@@ -69,6 +69,8 @@
                                 <li>Ambiente Sano y Cordial</li>
                                 <li>Maestros en continua captación y certificados como apple teacher.</li>
                             </ul>
+                            <button class="btn-btn-primary">Ver más</button>
+
                         </div>
                     </div>
                 </div>
@@ -90,6 +92,7 @@
                                 <li>Modelo IMPACT</li>
 
                             </ul>
+                            <button class="btn-btn-primary">Ver más</button>
                         </div>
                     </div>
                 </div>
@@ -111,12 +114,13 @@
                                 <li> Convenios de Vinculación para becas de las mejores universidades del país</li>
                                 <li>Talleres recreativos, artísticos y musicales</li>
                             </ul>
+                            <button class="btn-btn-primary">Ver más</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="adition">
+        <div class="adition" id="aditions">
             <div class="display-3-2">
                 <img src="./Photos/marcas.png" alt="Instituto-santiago" class="logo2">
             </div>
@@ -140,55 +144,25 @@
         </div>
     </main>
 </body>
-<footer class="footers">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading">Redes Sociales</h2>
-                
-                <ul class="ftco-footer-social p-0">
-      <li class="ftco-animate"><a href="https://es-la.facebook.com/www.institutosantiago.edu.mx/" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-      <li class="ftco-animate"><a href="https://es-la.facebook.com/www.institutosantiago.edu.mx/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
-       <li class="ftco-animate"><a href="whatsapp://send?text=Hola, me podría dar información acerca de &phone=+524271652110&abid=+524271652110" target="_blank" data-toggle="tooltip" data-placement="top" title="WhatsApp"><span class="fa fa-whatsapp"></span></a></li>
-    </ul>
-            </div>
-            <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
-                <h2 class="footer-heading">Oferta Educativa</h2>
-                <ul class="list-unstyled">
-      <li><a href="Primaria.php" class="py-2 d-block">Primaria</a></li>
-      <li><a href="Secundaria.php" class="py-2 d-block">Secundaria</a></li>
-      <li><a href="Preparatoria.php" class="py-2 d-block">Preparatoria</a></li>
-    </ul>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading">Más Información</h2>
-                <div class="block-23 mb-3">
-      <ul>
-        <li><span class="icon fa fa-map"></span><span class="text"> <a href="https://www.google.com/maps/place/Primaria+Instituto+Santiago/@20.3740584,-100.0676394,12z/data=!4m9!1m2!2m1!1sinstituto+santiago+maps!3m5!1s0x0:0xea519b866e3b2eb3!8m2!3d20.37406!4d-99.997605!15sChdpbnN0aXR1dG8gc2FudGlhZ28gbWFwc1ooChJpbnN0aXR1dG8gc2FudGlhZ28iEmluc3RpdHV0byBzYW50aWFnb5IBEWVsZW1lbnRhcnlfc2Nob29s" target="_blank">Cedros No. 11 Col. Guadalupe de las Peñas, San Juan del Rio, Qro.</a></span></li>
-        <li><a href="#"><span class="text">contacto@institutosantiago.edu.mx</span></a></li>
-      </ul>
+<footer class="footers" id="footers1">
+    <div>
+        <h1>Redes Sociales</h1>
+        <Ul class="social">
+            <li><button class="Red"><a href="https://www.facebook.com/www.institutosantiago.edu.mx/" class="botsa">F</button></a></li>
+            <li><button class="Red"><a href="https://www.instagram.com/institutosantiagosjr/">I</button></a></li>
+            <li><button class="Red"><a href="whatsapp://send?text=Hola, me podría dar información acerca de &phone=+524271652110&abid=+524271652110">W</button></a></li>
+        </Ul>
     </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading">Comunícate</h2>
-                <div class="block-23 mb-3">
-      <ul>
-        <li><a href="#"><span class="icon fa fa-phone"></span><span class="text"> 427-274-90-78</span></a></li>
-        <li><a href="#"><span class="icon fa fa-phone"></span><span class="text"> 427-272-59-44</span></a></li>
-        <li><a href="#"><span class="icon fa fa-phone"></span><span class="text"> 427-272-77-11</span></a></li>
-      </ul>
+    <div>
+        <h1>Oferta Educativa</h1>
     </div>
-            </div>
-        </div>
+    <div>
+        <h1>Más Información</h1>
     </div>
-    <div class="row mt-5">
-      <div class="col-md-12 text-center">
+    <div>
+        <h1>Comunícate</h1>
+    </div>
 
-        <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-      </div>
-    </div>
 </footer>
 
 </html>
