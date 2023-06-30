@@ -40,6 +40,7 @@ body header {
 .Menu {
   width: 0;
   height: 0;
+
 }
 ul.nav li {
   padding-left: 10px;
@@ -260,6 +261,7 @@ ul.nav li {
   .Menu {
     width: 30px;
     height: 30px;
+   margin-right: 10px;
   }
   .footers {
     height: 800px;
@@ -314,20 +316,45 @@ ul.nav li {
 .footers div {
   padding: 60px;
 }
-.social {
+
+.redes  {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   list-style: none;
   padding-top: 40px;
 }
-.Red{
-  -webkit-border-radius: 50;
-  -moz-border-radius: 50;
-  border-radius: 50%;
-  color: #ffffff;
-  background: #000000;
-  padding: 16px 16px 16px 16px;
-  border: solid rgb(0,189,86) 5px;
-  text-decoration: none;
+
+.redes a {
+ font-size: 50px;
+ color:#00bd59;
+ background-color: transparent;
+}
+.direc {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  list-style: none;
+  padding-top: 40px;
+}
+.direc i {
+ font-size: 50px;
+  color:#00bd59;
+  background-color: black;
+ }
+ .direc li {
+  padding: 10px;
+}
+
+.llama {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  list-style: none;
+  padding-top: 40px;
+  
+}
+.llama li {
+  padding:10px;
+  
 }
