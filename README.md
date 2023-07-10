@@ -5,7 +5,7 @@ Este es el archivo README para el repositorio del Instituto Santiago. El reposit
 
 ## Ubicación
 
-Nuestro instituto está ubicado en [dirección], [ciudad], [país]. Contamos con instalaciones modernas y bien equipadas que brindan un entorno propicio para el aprendizaje y el desarrollo de nuestros estudiantes.
+Nuestro instituto está ubicado en san juan del rio, queretaro, mexico. Contamos con instalaciones modernas y bien equipadas que brindan un entorno propicio para el aprendizaje y el desarrollo de nuestros estudiantes.
 
 ## Programas Académicos
 
@@ -31,7 +31,7 @@ This is the README file for the Instituto Santiago repository. The repository co
 
 ## Location
 
-Our institute is located at [address], [city], [country]. We have modern and well-equipped facilities that provide a conducive environment for learning and the development of our students.
+Our institute is located atsan juan del rio, queretaro, mexico. We have modern and well-equipped facilities that provide a conducive environment for learning and the development of our students.
 
 ## Academic Programs
 
